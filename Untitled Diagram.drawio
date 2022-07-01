@@ -1,1 +1,124 @@
-<mxfile host="app.diagrams.net" modified="2022-07-01T06:36:19.082Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" version="20.0.4" etag="10h_OI_bOHI3lAPM8W2Q" type="github"><diagram id="3FZ1qKAfMQ9BMiYajh-T">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-07-01T14:15:23.068Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.5 Safari/605.1.15" etag="dh349YQ3DNtDmayXO3V9" version="20.0.4" type="github">
+  <diagram id="3FZ1qKAfMQ9BMiYajh-T" name="Page-1">
+    <mxGraphModel dx="884" dy="538" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RHvWG_-ZKxmL_59z5iRP-1" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="113" y="60" width="350" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="RHvWG_-ZKxmL_59z5iRP-3" value="发送方" style="shape=mxgraph.cisco.computers_and_peripherals.macintosh;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=top;verticalAlign=bottom;align=center;outlineConnect=0;labelPosition=center;" vertex="1" parent="1">
+          <mxGeometry x="130" y="135" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="RHvWG_-ZKxmL_59z5iRP-6" value="接收方" style="shape=mxgraph.cisco.computers_and_peripherals.macintosh;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=top;verticalAlign=bottom;align=center;outlineConnect=0;labelPosition=center;" vertex="1" parent="1">
+          <mxGeometry x="364" y="86" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="RHvWG_-ZKxmL_59z5iRP-9" value="" style="shape=mxgraph.cisco.computers_and_peripherals.macintosh;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="364" y="137.5" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="RHvWG_-ZKxmL_59z5iRP-10" value="" style="shape=mxgraph.cisco.computers_and_peripherals.macintosh;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="364" y="190" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="RHvWG_-ZKxmL_59z5iRP-11" value="路由器" style="image;html=1;image=img/lib/clip_art/networking/Router_128x128.png;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="240" y="132.5" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RHvWG_-ZKxmL_59z5iRP-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="RHvWG_-ZKxmL_59z5iRP-3" target="RHvWG_-ZKxmL_59z5iRP-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RHvWG_-ZKxmL_59z5iRP-15" value="" style="verticalLabelPosition=top;verticalAlign=bottom;html=1;shape=mxgraph.basic.layered_rect;dx=15;outlineConnect=0;labelPosition=center;align=center;" vertex="1" parent="1">
+          <mxGeometry x="180" y="120" width="50" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="RHvWG_-ZKxmL_59z5iRP-17" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RHvWG_-ZKxmL_59z5iRP-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="160" as="sourcePoint" />
+            <mxPoint x="360" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RHvWG_-ZKxmL_59z5iRP-18" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.015;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RHvWG_-ZKxmL_59z5iRP-11" target="RHvWG_-ZKxmL_59z5iRP-9">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="200" as="sourcePoint" />
+            <mxPoint x="340" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RHvWG_-ZKxmL_59z5iRP-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RHvWG_-ZKxmL_59z5iRP-11">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="290" as="sourcePoint" />
+            <mxPoint x="360" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RHvWG_-ZKxmL_59z5iRP-23" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diagRev;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;rotation=-35;" vertex="1" parent="1">
+          <mxGeometry x="310" y="129.50000000000003" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="RHvWG_-ZKxmL_59z5iRP-26" value="每个接收方生成一个数据包" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=30;dy=15;size=5;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="70" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RHvWG_-ZKxmL_59z5iRP-33" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diagRev;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="312" y="152.50000000000003" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="RHvWG_-ZKxmL_59z5iRP-34" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diagRev;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;rotation=30;" vertex="1" parent="1">
+          <mxGeometry x="311" y="178.5" width="28" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="RHvWG_-ZKxmL_59z5iRP-36" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="113" y="270" width="350" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="RHvWG_-ZKxmL_59z5iRP-37" value="发送方" style="shape=mxgraph.cisco.computers_and_peripherals.macintosh;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=top;verticalAlign=bottom;align=center;outlineConnect=0;labelPosition=center;" vertex="1" parent="1">
+          <mxGeometry x="130" y="345" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="RHvWG_-ZKxmL_59z5iRP-38" value="接收方" style="shape=mxgraph.cisco.computers_and_peripherals.macintosh;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=top;verticalAlign=bottom;align=center;outlineConnect=0;labelPosition=center;" vertex="1" parent="1">
+          <mxGeometry x="364" y="296" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="RHvWG_-ZKxmL_59z5iRP-39" value="" style="shape=mxgraph.cisco.computers_and_peripherals.macintosh;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="364" y="347.5" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="RHvWG_-ZKxmL_59z5iRP-40" value="" style="shape=mxgraph.cisco.computers_and_peripherals.macintosh;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="364" y="400" width="50" height="45" as="geometry" />
+        </mxCell>
+        <mxCell id="RHvWG_-ZKxmL_59z5iRP-41" value="路由器" style="image;html=1;image=img/lib/clip_art/networking/Router_128x128.png;labelPosition=center;verticalLabelPosition=top;align=center;verticalAlign=bottom;" vertex="1" parent="1">
+          <mxGeometry x="240" y="342.5" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RHvWG_-ZKxmL_59z5iRP-42" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;startArrow=none;" edge="1" parent="1" source="RHvWG_-ZKxmL_59z5iRP-51" target="RHvWG_-ZKxmL_59z5iRP-41">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RHvWG_-ZKxmL_59z5iRP-44" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RHvWG_-ZKxmL_59z5iRP-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="310" y="370" as="sourcePoint" />
+            <mxPoint x="360" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RHvWG_-ZKxmL_59z5iRP-45" value="" style="endArrow=classic;html=1;rounded=0;entryX=0.015;entryY=0.5;entryDx=0;entryDy=0;entryPerimeter=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RHvWG_-ZKxmL_59z5iRP-41" target="RHvWG_-ZKxmL_59z5iRP-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="410" as="sourcePoint" />
+            <mxPoint x="340" y="360" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RHvWG_-ZKxmL_59z5iRP-46" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="RHvWG_-ZKxmL_59z5iRP-41">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="500" as="sourcePoint" />
+            <mxPoint x="360" y="420" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RHvWG_-ZKxmL_59z5iRP-47" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diagRev;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;rotation=-35;" vertex="1" parent="1">
+          <mxGeometry x="310" y="339.5" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="RHvWG_-ZKxmL_59z5iRP-48" value="一个数据包复制转发" style="whiteSpace=wrap;html=1;shape=mxgraph.basic.roundRectCallout;dx=47;dy=11;size=5;boundedLbl=1;rotation=0;flipH=1;" vertex="1" parent="1">
+          <mxGeometry x="180" y="274.5" width="90" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="RHvWG_-ZKxmL_59z5iRP-49" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diagRev;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="312" y="362.5" width="30" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="RHvWG_-ZKxmL_59z5iRP-50" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diagRev;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;rotation=30;" vertex="1" parent="1">
+          <mxGeometry x="311" y="388.5" width="28" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="RHvWG_-ZKxmL_59z5iRP-52" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;" edge="1" parent="1" source="RHvWG_-ZKxmL_59z5iRP-37" target="RHvWG_-ZKxmL_59z5iRP-51">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="180" y="367.5" as="sourcePoint" />
+            <mxPoint x="240" y="367.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RHvWG_-ZKxmL_59z5iRP-51" value="" style="verticalLabelPosition=bottom;verticalAlign=top;html=1;shape=mxgraph.basic.patternFillRect;fillStyle=diagRev;step=5;fillStrokeWidth=0.2;fillStrokeColor=#dddddd;rotation=0;" vertex="1" parent="1">
+          <mxGeometry x="190" y="362.5" width="30" height="10" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
